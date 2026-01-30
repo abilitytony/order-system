@@ -1,0 +1,17 @@
+package com.example.order_system.member.dtos;
+
+
+import jakarta.validation.constraints.NotBlank;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Builder
+public class MemberLoginDto {
+    private String email;
+    private String password;
+}
